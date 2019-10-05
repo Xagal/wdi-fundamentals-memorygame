@@ -5,36 +5,46 @@
     <title>Memory Card Game</title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    
 </head>
 
 <body>
+
     <header>
         <h1>Memory Game</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Instructions</a></li>
-                <li><a href="#">Game</a></li>
-            </ul>
-        </nav>
     </header>
-    <section>
-        <h2>Instructions</h2>
-        <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-    </section> 
-    <section>
-        <h2>Why Play?</h2>
-        <p>This universal card game has been around in human history for a reason. Everyone can come together and relate over a game together. It also practices one of our most important skills in life, memory. So come together and laugh over a fun game everyone can enjoy.</p>
-    </section>
-    <div>
-            <img src="images/back.png" alt="Queen of Diamonds">
-            <img src="images/back.png" alt="Queen of Hearts">
-            <img src="images/back.png" alt="King of Diamonds">
-            <img src="images/back.png" alt="King of Hearts">
-    </div>
-    <footer>
-        <br>If you have any suggestions, reach out to me <a href="#">here</a>!
-    </footer>
+    <main>
+        <nav>
+            <a href="#instructions"class="menu">Instructions</a></li>
+            <a href="#game"class="menu">Game</a></li>
+        </nav>
 
+        <section>
+            <h2 id="instructions">Instructions</h2>
+            <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
+        </section> 
+        <section>
+            <h2>Why Play?</h2>
+            <p>This universal card game has been around in human history for a reason. Everyone can come together and relate over a game together. It also practices one of our most important skills in life, memory. So come together and laugh over a fun game everyone can enjoy.</p>
+        </section>
+        <div id="game">
+                <img src="images/back.png" alt="Queen of Diamonds">
+                <img src="images/back.png" alt="Queen of Hearts">
+                <img src="images/back.png" alt="King of Diamonds">
+                <img src="images/back.png" alt="King of Hearts">
+        </div>
+    </main>
+    <footer class="clearfix">
+        <p class="copyright">
+            Copyright 2017
+        </p>
+        <p class="message">
+            Created with &hearts; by <span class="name">GA</span>
+            <br>If you have any suggestions, reach out to me <a href="#" id="contact">here</a>
+        </p>
+    </footer>
+    
+    <script src="js/main.js"></script>
 </body>
 
 </html>
